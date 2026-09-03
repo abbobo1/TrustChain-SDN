@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated Fabric material and vendored downloads
+fabric-samples/
+fabric-samples-old/
+fabric-*/
+organizations/
+system-genesis-block/
+channel-artifacts/
+bin/
+
+# Results and generated binaries
+*.log
+*.csv
+trustchain-smartcontract/trustchain-smartcontract
+
+# Local configuration
+.env
+.idea/
+.vscode/
+.DS_Store
