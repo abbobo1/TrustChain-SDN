@@ -1,0 +1,8 @@
+services:
+  odl:
+    image: ${ODL_IMAGE:-opendaylight/odl:latest}
+    container_name: opendaylight
+    ports:
+      - "6653:6653"
+      - "8181:8181"
+    restart: unless-stopped
